@@ -1,0 +1,74 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.calc {
+  width: 400px;
+  background-color: black;
+  color: white;
+  
+}
+
+.screen {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+ 
+}
+
+.calc-button {
+  background-color: pink;
+  color: black;
+  height: 100px;
+  width: 24.5%;
+  border: none; 
+  border-radius: 0;
+  font-size: 40px;
+  cursor: pointer; /* changes the mouse into a manita, so people know that u could click on that */
+}
+
+.calc-button:hover {
+  background-color: rgb(252, 222, 227);
+}
+
+.calc-button:active {
+  background-color: rgb(247, 157, 172);
+}
+
+/* hover is for when u move your mouse around and active is for when u actually clicked on it */
+
+.calc-button:last-child {
+  background-color: rgb(160, 58, 180); 
+  color:white
+}
+
+.calc-button:last-child:hover {
+  background-color: rgb(181, 69, 204); 
+}
+
+.calc-button:last-child:active {
+  background-color: rgb(116, 45, 131); 
+}
+
+
+.double {
+  width: 49.7%;
+}
+
+.triple {
+  width: 74.8%;
+}
+
+.calc-row {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
+
