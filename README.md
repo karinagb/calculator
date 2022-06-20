@@ -1,2 +1,2 @@
-﻿# Calculator Project blue
+﻿# Calculator Project
 
