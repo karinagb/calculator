@@ -4,11 +4,12 @@ box-sizing: border-box;
 
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 5px;
+  background-color: black;
 }
 
 .calc {
-  width: 400px;
+  width: 100%;
   background-color: black;
   color: white;
   
@@ -18,7 +19,7 @@ body {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
-    padding: 20px 5px;
+    padding: 20px;
  
 }
 
@@ -62,13 +63,13 @@ body {
 }
 
 .triple {
-  width: 74.8%;
+  width: 74.9%;
 }
 
 .calc-row {
   display: flex;
   align-content: stretch;
   justify-content: space-between;
-  margin-bottom: 0.5%;
+  margin-bottom: 5px;
 }
 
